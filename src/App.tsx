@@ -6,8 +6,9 @@ function App() {
   return (
     <>
     <Header />
-    <h1 className="text-center text-green-500 font-bold">Halla</h1>
-    </>
+    <img src="portrett.tiff" className="rounded-full w-[15%] h-[30%] mx-auto mt-12" />
+
+    </> 
   )
 }
 

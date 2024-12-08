@@ -1,7 +1,8 @@
 import React from "react"
 
 export const Header: React.FC = () => (
-    <div className="w-screen h-32 bg-[#2C3E50] rounded-b-md flex items-center justify-center">
-        <p className="text-white text-center"> Amardeep Singh</p>
-    </div>
+<div className="relative w-screen h-32 bg-[#2C3E50] rounded-b-md flex items-center justify-evenly">
+    <a href="" className="text-white">Se denne koden på GitHub!</a>
+  <p className="relative text-white text-center">Amardeep Singh</p>
+</div>
 )
