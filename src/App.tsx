@@ -6,8 +6,12 @@ function App() {
   return (
     <>
     <Header />
-    <img src="portrett.tiff" className="rounded-full w-[15%] h-[30%] mx-auto mt-12" />
-
+    <div className="flex">
+      <img src="portrett.tiff" className="rounded-full w-[15%] h-[30%] mt-4 ml-4" />
+      <div className="table-column mt-8 ml-8 border-2 border-[#95A5A6] rounded-md p-4">
+        <p>25 år</p>
+      </div>
+    </div>
     </> 
   )
 }
